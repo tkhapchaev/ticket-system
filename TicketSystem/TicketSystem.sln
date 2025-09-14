@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketService", "TicketService\TicketService.csproj", "{2C34D2D2-E62E-407E-BC14-1D24166D693A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "NotificationService\NotificationService.csproj", "{854EF603-A471-4188-9D8E-A9DB1E4A7D89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C34D2D2-E62E-407E-BC14-1D24166D693A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C34D2D2-E62E-407E-BC14-1D24166D693A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C34D2D2-E62E-407E-BC14-1D24166D693A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C34D2D2-E62E-407E-BC14-1D24166D693A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{854EF603-A471-4188-9D8E-A9DB1E4A7D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{854EF603-A471-4188-9D8E-A9DB1E4A7D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{854EF603-A471-4188-9D8E-A9DB1E4A7D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{854EF603-A471-4188-9D8E-A9DB1E4A7D89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
