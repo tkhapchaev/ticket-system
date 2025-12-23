@@ -24,19 +24,19 @@ REST API для управления тикетами.
 
 ### Доменные сущности
 
-- **Project**
-- **Ticket**
-- **User**
-- **TicketStatus** (справочник)
-- **TicketPriority** (справочник)
+- **Project**;
+- **Ticket**;
+- **User**;
+- **TicketStatus** (справочник);
+- **TicketPriority** (справочник).
 
 ### События Kafka
 
 TicketService публикует события:
 
-- `ticket.created`
-- `ticket.updated`
-- `ticket.assigned`
+- `ticket.created`;
+- `ticket.updated`;
+- `ticket.assigned`.
 
 Каждое событие передаётся в виде DTO и сериализуется в JSON.
 
@@ -56,17 +56,17 @@ TicketService публикует события:
 
 ## Технологии
 
-- **.NET 8**
-- **ASP.NET Core**
-- **Entity Framework Core**
-- **PostgreSQL**
-- **Swagger**
-- **Apache Kafka**
-- **Docker**
+- **.NET 8**;
+- **ASP.NET Core**;
+- **Entity Framework Core**;
+- **PostgreSQL**;
+- **Swagger**;
+- **Apache Kafka**;
+- **Docker**.
 
 ## Запуск
 
-docker-compose up --build --detach
+В директории решения необходимо выполнить команду: docker-compose up --build --detach
 
 Будут запущены:
 - PostgreSQL;
@@ -78,5 +78,5 @@ docker-compose up --build --detach
 
 ## Доступные URL
 
-- Swagger: http://localhost:8080/swagger
-- Kafka UI: http://localhost:8081
+- Swagger: http://localhost:8080/swagger;
+- Kafka UI: http://localhost:8081.
